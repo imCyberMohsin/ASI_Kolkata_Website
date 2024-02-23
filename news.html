@@ -1,0 +1,59 @@
+<!--! News Page HTML  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics News</title>
+    <link rel="stylesheet" href="news.css">
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+
+<body>
+    <nav class="navbar nav_res" id="myNav">
+        <a href="./index.html" class="logo" id="logo">
+            <img src="media/logo.png" alt="NoImage" />
+        </a>
+        <ul class="navigation visible">
+            <li id="About"><a href="index.html">About</a></li>
+            <li id="Upcoming">
+                <div class="event_text">Events ▼</div>
+                <div>
+                    <ul class="event_content dropdown">
+                        <li class="nevent"><a href="pages/index.html">AGC2023</a></li>
+                        <li class="nevent"><a href="AGC2024/index.html">AGC2024</a></li>
+                        <li class="nevent">
+                            <a href="pages/MasterclassWorkshop.html">Masterclass/Workshop</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li id="Analytics"><a href="news.html">Analytics News</a></li>
+            <li id="contact_us"><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="gif visible">
+            <a href="https://www.analytics-india.com/"><img src="media/asi-removebg-preview.png" alt="no-image" /></a>
+        </div>
+        <div class="menu_icon">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <!--! News Content RSS Feed -->
+    <div id="news-container">
+        <!-- News articles will be displayed here -->
+    </div>
+
+    <footer>
+        <p>© 2023 Powered by</p>
+        <img src="media/nshm logo.png" alt="no-image" />
+    </footer>
+
+    <script src="./javascript/dropdown.js"></script>
+    <script defer src="./news.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,278 @@
+body {
+    margin-left: -3%;
+}
+
+#chief {
+    display: flex;
+    justify-content: center;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: x-large;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+.details {
+    text-align: center;
+    padding-top: 2vh;
+}
+
+.place {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+.contact {
+    padding-bottom: 1vh;
+}
+
+.info p {
+    padding-top: 1vh;
+    text-align: center;
+    color: #403939;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+hr {
+    font-weight: 2px;
+    width: 90%;
+    color: #e10707;
+    margin: auto;
+}
+
+.card_child {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    margin-right: 1%;
+}
+
+.maam {
+    margin-top: 15%;
+    box-shadow: 1px 1px 6px 7px rgb(212, 210, 210);
+    border-radius: 3%;
+    width: fit-content;
+}
+
+.maam img {
+    border-radius: 3%;
+}
+
+.Desg div img {
+    border-radius: 3%;
+}
+
+#sets img {
+    height: 30vh;
+    width: 30vh;
+    margin-bottom: -4px;
+}
+
+#card_Parent {
+    display: flex;
+    margin-top: 5vh;
+    margin: auto;
+    margin-top: 2%;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Card1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    border-left: #e10707 5px solid;
+    padding-left: 1vh;
+    width: fit-content;
+}
+
+.heading h2 {
+    font-size: 180%;
+}
+
+#list {
+    padding-top: 3vh;
+    padding-left: 10vh;
+    width: fit-content;
+}
+
+
+.link img {
+    width: 16%;
+    height: auto;
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+    max-width: 4vh;
+}
+
+.link1 {
+    align-items: center;
+}
+
+.link img:hover {
+    transform: scale(1.1);
+}
+
+.link1 img {
+    width: 9%;
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+    max-width: 5vh;
+}
+
+
+.link1 img:hover {
+    transform: scale(1.1);
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5vh;
+}
+
+.profile img {
+    max-width: 3vh;
+    text-align: center;
+}
+
+#mail {
+    margin-left: 1vh;
+}
+
+#H1 {
+    margin-top: 2%;
+}
+
+.gridd {
+    display: flex;
+    gap: 1vw;
+    flex-direction: row;
+}
+
+@media (max-width: 811px) {
+    .gridd {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: max-content;
+        margin-left: 10%;
+    }
+
+    .Exec {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 90%;
+        align-items: center;
+    }
+
+    .infox {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: fit-content;
+        padding-top: 1vh;
+        text-align: justify;
+        color: #403939;
+        font-weight: 600;
+        font-size: 25px;
+    }
+
+    .namespace {
+        margin: auto;
+        padding: auto;
+        padding-left: 16%;
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        font-size: large;
+        align-items: center;
+        width: 90%;
+        margin-top: 1%;
+    }
+
+    .Exe {
+        display: flex;
+        flex-direction: column;
+        padding-top: 2%;
+        width: 70%;
+    }
+
+    #H2 {
+        margin-left: 8%;
+    }
+
+}
+
+.Exec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+
+.Exe {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    width: 70%;
+    width: fit-content;
+}
+
+@media (min-width:812px) {
+    .namespace {
+        margin: auto;
+        padding: auto;
+        padding-left: 8.5%;
+        display: flex;
+        flex-direction: row;
+        gap: 2vw;
+        font-size: large;
+        margin-top: 1%;
+    }
+}
+
+    .infox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+        padding-top: 1vh;
+        text-align: justify;
+        color: #403939;
+        font-weight: 600;
+        font-size: 25px;
+    }
+
+    .infox p {
+        width: max-content;
+    }
+
+    #H2 {
+        display: flex;
+        text-align: left;
+        width: max-content;
+        margin-left: 6%;
+
+    }
