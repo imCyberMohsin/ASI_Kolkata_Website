@@ -3,15 +3,19 @@
 Please Mention The Change Logs & Reason of Changes For Readability and Maintainability of The Source Code.
 ```
 ```
-Lets Make Our AGC Event Great Togather🙂
+Lets Make Our AGC Event Great Together🙂
 ```
+
+## Fixes in v4.10.0
+- Fixed header size
+- Speakers added to events page
+- fixed several problems in submission page
+- Added TCS sponsor icon to sponsor page 
+- Fixed footer
 
 ## Fixes in v4.9.7
 - Updated the Sponsors(Partners Section) and Events Page.
-- Fixed Submissions page.
-- Fixed Header alignment of each page.
-- Added ASI  Kolkata Link And ASI page link to the header logos.
-- Minor Bug fixes around alignment.
+- Added ASI Kolkata Link And ASI page link to the header logos.
 
 ## Fixes in v4.9.6
 - Updated the Sponsors(Partners Section) and Events Page.
@@ -22,7 +26,7 @@ Lets Make Our AGC Event Great Togather🙂
 ## Fixes in v4.9.5
 
 ## Fixes in v4.9.4
-- 
+
 
 ## Fixes in v4.9.3
 - Text correction in Submission-page-2024
@@ -32,7 +36,7 @@ Lets Make Our AGC Event Great Togather🙂
 
 ## Fixes in v4.9.1
 - Fixed extra margin around the countdown✅
-- Fixed dowload Button text wrap✅
+- Fixed download Button text wrap✅
 - Added brochure to the download button✅
 
 ## Fixes/Updates in v4.9
@@ -50,7 +54,6 @@ Fixed hyperlink ASI homepage ✅
 Fixed (new added img out of page in mobile) - 2024 Gallery Page ✅
 ```
 
-
 ## ASI Gallery Page Designed by Mohsin & Saman ✅
 ```
 Gallery Page is Designed To Revisit The Past Event AGC-2023.
@@ -60,4 +63,3 @@ Gallery Page is Designed To Revisit The Past Event AGC-2023.
 ```
 Visitors on the news page can view latest Tech & AI news.
 ```
-
