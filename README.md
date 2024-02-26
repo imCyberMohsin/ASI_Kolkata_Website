@@ -6,6 +6,11 @@ Please Mention The Change Logs & Reason of Changes For Readability and Maintaina
 Lets Make Our AGC Event Great Together🙂
 ```
 
+## v4.10.1
+- Removed early bird col from "Register Page"
+- Added RS software logo from "Sponsor page"
+- Added more speakers in "Event Page"
+
 ## Fixes in v4.10.0
 - Fixed header size
 - Speakers added to events page
