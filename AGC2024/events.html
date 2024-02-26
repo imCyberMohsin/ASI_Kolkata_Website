@@ -263,6 +263,31 @@
         </div>
     </div>
 
+    <!-- show more button-->
+    <button class="show-more-btn">Show more</button>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var gridItems = document.querySelectorAll('.grid-item');
+            var showMoreButton = document.querySelector('.show-more-btn');
+    
+            for (var i = 0; i < gridItems.length; i++) {
+                if (i < 8) {
+                    gridItems[i].style.display = 'block';
+                } else {
+                    gridItems[i].style.display = 'none';
+                }
+            }
+    
+            showMoreButton.addEventListener('click', function() {
+                for (var i = 8; i < gridItems.length; i++) {
+                    gridItems[i].style.display = 'block';
+                }
+                showMoreButton.style.display = 'none';
+            });
+        });
+    </script>
+    
+
     <div class="key-attraction">
         <h1>Key Attractions</h1>
         <h2>Keynotes :</h2>
