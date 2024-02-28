@@ -457,16 +457,18 @@ footer img {
     height: 50px;
     padding: 0 50px;
     border: 0;
-    border-radius: 8px;
+    border-radius: 15px;
     background-color: darkorange;
     color: #f1f1f1;
     font-size: 20px;
+    font-weight: 500;
     cursor: pointer;
     transition: 0.3s linear;
 }
 
 .show-more-btn:hover {
-    opacity: 0.8;
+    background-color: #006A9F;
+    cursor: pointer;
 }
 
 .key-attraction {
@@ -1071,6 +1073,7 @@ footer img {
         height: 38px;
         padding: 0 9px;
         font-size: 15px;
+        margin-top: 20%;
     }
 
     /****SUBMISSION*****/
