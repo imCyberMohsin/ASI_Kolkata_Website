@@ -6,6 +6,9 @@ Please Mention The Change Logs & Reason of Changes For Readability and Maintaina
 Lets Make Our AGC Event Great Together🙂
 ```
 
+## v4.10.2
+- Schedule updated
+
 ## v4.10.1
 - Removed early bird col from "Register Page"
 - Added RS software logo from "Sponsor page"
