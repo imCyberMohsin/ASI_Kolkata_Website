@@ -21,13 +21,13 @@ header {
     align-items: center;
 }
 
-header a{
+header a {
     display: flex;
     /* justify-content: center; */
     margin: auto;
 }
 
-header .society-logo{
+header .society-logo {
     display: flex;
     justify-content: end;
 }
@@ -62,7 +62,7 @@ header h2 {
     z-index: 2;
 }
 
-.navigation{
+.navigation {
     padding-right: 40px;
 }
 
@@ -218,7 +218,7 @@ header h2 {
     font-weight: 700;
 }
 
-.chairInfo{
+.chairInfo {
     margin: auto;
     width: 70%;
 }
@@ -759,6 +759,16 @@ footer img {
     padding: 20px 25px;
 }
 
+.styled-table table tr :nth-child(2) {
+    text-align: justify;
+}
+
+.styled-table table tbody tr :nth-child(1),
+.styled-table table tbody tr :nth-child(3),
+.styled-table table tbody tr :nth-child(4) {
+    font-weight: 600;
+}
+
 .styled-table table tbody tr {
     border-bottom: 1px solid #dddddd;
 }
@@ -845,6 +855,7 @@ footer img {
 
 /*******Responsive part*******/
 @media only screen and (max-width: 600px) {
+
     /*HEADER*/
     header h2 {
         font-size: 11px;
@@ -1194,6 +1205,10 @@ footer img {
         /* x-axis padding from 25 to 8 - to fix overflow in mobile view */
     }
 
+    .styled-table table tr :nth-child(2) {
+        text-align:unset;
+    }
+
     .day-note {
         font-size: 0.5rem;
         margin: 5% 0% 5% 0%;
@@ -1206,6 +1221,7 @@ footer img {
 
 /*****TAB****/
 @media screen and (max-width: 1266px) and (min-width: 600px) {
+
     /*HEADER*/
     header h2 {
         font-size: 25px;
@@ -1292,7 +1308,7 @@ footer img {
         flex-direction: column;
     }
 
-    .photoright{
+    .photoright {
         padding-bottom: 8%;
     }
 
@@ -1300,6 +1316,11 @@ footer img {
     .grid-item {
         width: 100%;
         display: block;
+    }
+
+    /** schedule */
+    .styled-table table tr :nth-child(2) {
+        text-align: unset;
     }
 
     /****SUBMISSION*****/
