@@ -766,7 +766,7 @@ footer img {
 .styled-table table tbody tr :nth-child(1),
 .styled-table table tbody tr :nth-child(3),
 .styled-table table tbody tr :nth-child(4) {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .styled-table table tbody tr {
