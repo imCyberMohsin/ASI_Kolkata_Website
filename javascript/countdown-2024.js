@@ -26,3 +26,6 @@ var x = setInterval(function () {
         document.getElementById("demo").innerHTML = "EXPIRED";
     }
 }, 1000);
+
+// Comment Above to use this when timer expires, also comment agc.js script from index.html
+// document.getElementById("timer").innerHTML = "Yay🎉 Its Event Day";
