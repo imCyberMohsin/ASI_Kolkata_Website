@@ -822,6 +822,7 @@ footer img {
 }
 
 .coming-soon .right img {
+    z-index: -1;
     width: 100%;
     animation: moveUp 1.5s infinite ease-out;
 }
